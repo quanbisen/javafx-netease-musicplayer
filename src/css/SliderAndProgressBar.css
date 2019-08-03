@@ -7,7 +7,7 @@
 	-fx-pref-width: 16;
 	-fx-min-width: 16;
 	-fx-max-width: 16;
-	-fx-background-image: url("/Image/NeteaseSliderBarThumb.png");
+	-fx-background-image: url("/image/NeteaseSliderBarThumb.png");
 	-fx-background-size: 16, 16; /*背景图片尺寸*/
 	-fx-background-color: transparent;
 	-fx-background-radius: 2.0em;

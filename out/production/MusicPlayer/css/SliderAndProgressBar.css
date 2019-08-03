@@ -1,0 +1,44 @@
+/*以下是横滑动条的样式设置*/
+/*拇指*/
+.slider .thumb {
+	-fx-pref-height: 16;
+	-fx-min-height: 16;
+	-fx-max-height: 16;
+	-fx-pref-width: 16;
+	-fx-min-width: 16;
+	-fx-max-width: 16;
+	-fx-background-image: url("/image/NeteaseSliderBarThumb.png");
+	-fx-background-size: 16, 16; /*背景图片尺寸*/
+	-fx-background-color: transparent;
+	-fx-background-radius: 2.0em;
+	
+	
+	-fx-border-insets: 0, 0, 0, 0;
+	-fx-padding: 0, 0, 0, 0;
+	-fx-background-insets: 0, 0, 0, 0;
+	-fx-border-image-insets: 0, 0, 0, 0;
+}
+/*轨道*/
+.slider .track {
+	-fx-background-color:null;
+	-fx-min-height: 16;
+	-fx-max-height: 16;
+	-fx-pref-height: 16;
+}
+
+/*以下是拖动条背后的进度条设置*/
+.progress-bar > .bar{
+  -fx-pref-height: 2;
+  -fx-min-height: 2;
+  -fx-background-insets: 0;
+}
+
+.progress-bar:determinate > .bar {
+	-fx-background-color: #D13A3C;
+}
+
+.progress-bar > .track{
+	
+	-fx-min-height: 2;
+	-fx-background-color: #E5E5E5;
+}

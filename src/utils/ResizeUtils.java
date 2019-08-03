@@ -156,16 +156,16 @@ public final class ResizeUtils {
 			stage.setMaximized(true);
 			stage.setWidth(ScreenWidth);
 			stage.setHeight(ScreenHeight);
-			MaximizeView.setImage(new Image("Image/NeteaseMaximizedDefault.png"));
+			MaximizeView.setImage(new Image("image/NeteaseMaximizedDefault.png"));
 			labMaximize.setOnMouseEntered(ee->{
-				MaximizeView.setImage(new Image("Image/NeteaseMaximized.png"));
+				MaximizeView.setImage(new Image("image/NeteaseMaximized.png"));
 			});
 			labMaximize.setOnMouseExited(ee->{
-				MaximizeView.setImage(new Image("Image/NeteaseMaximizedDefault.png"));
+				MaximizeView.setImage(new Image("image/NeteaseMaximizedDefault.png"));
 			});
 			labMaximize.setOnMouseMoved(e->{
 				if(stage.isMaximized()){
-					MaximizeView.setImage(new Image("Image/NeteaseMaximized.png"));
+					MaximizeView.setImage(new Image("image/NeteaseMaximized.png"));
 				}
 			});
 		}
@@ -178,12 +178,12 @@ public final class ResizeUtils {
 
 
 			//把图片设置回原来的样子
-			MaximizeView.setImage(new Image("Image/NeteaseMaximizeDefault.png"));
+			MaximizeView.setImage(new Image("image/NeteaseMaximizeDefault.png"));
 			labMaximize.setOnMouseEntered(ee->{
-				MaximizeView.setImage(new Image("Image/NeteaseMaximize.png"));
+				MaximizeView.setImage(new Image("image/NeteaseMaximize.png"));
 			});
 			labMaximize.setOnMouseExited(ee->{
-				MaximizeView.setImage(new Image("Image/NeteaseMaximizeDefault.png"));
+				MaximizeView.setImage(new Image("image/NeteaseMaximizeDefault.png"));
 			});
 
 		}

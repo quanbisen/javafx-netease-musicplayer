@@ -1,0 +1,9 @@
+.label{
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-color: #353535;
+    -fx-pref-width: 280;
+    -fx-pref-height: 50;
+    -fx-background-radius: 1em;
+}
