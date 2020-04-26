@@ -1,5 +1,5 @@
-##本项目已经舍弃，目前在重构了，使用了MVC模式开发的，链接：https://github.com/quanbisen/neteasemusicplayer
-#以下是原介绍
+# 本项目已经舍弃，目前在重构了，使用了MVC模式开发的，链接：[neteasemusicplayer](https://github.com/quanbisen/neteasemusicplayer)
+# 以下是原介绍
 # JavaFX-Netease-Music-Player
 This is a imitation of Netease Music Player which is a Universal Windows Platform program.Now it can play music through the folder you have chose,control music progress and volume.But something other cool animation,album image and lyric are not developed.
 /这是一个模范UWP版本网易云音乐的JavaFX程序，现在它可以根据选择的音乐文件夹播放音乐，控制播放的进度和声音，不过一些其它的好看动画、专辑图和歌词还没有开发完成。
